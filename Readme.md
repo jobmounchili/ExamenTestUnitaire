@@ -29,16 +29,16 @@ Ce projet est une implémentation du célèbre jeu **Wordle** en Python. Le but 
    python -m venv ExamenTestUnitaire
    cd ExamenTestUnitaire
    ```
-  #### Linux 
-   ```bash
-  source bin/activate
-   ```
-  #### Windows
-  ```bash
-  source Scripts/activate
-  ```
+2. Linux 
+    ```bash
+    source bin/activate
+    ```
+3. Windows
+    ```bash
+    source Scripts/activate
+    ```
 
-2. Installez les dépendances nécessaires (si applicable) :
+4. Installez les dépendances nécessaires (si applicable) :
     ```bash
     pip install -r requirements.txt
     ```
@@ -48,13 +48,13 @@ Ce projet est une implémentation du célèbre jeu **Wordle** en Python. Le but 
 ### Lancer l'application
 
 Pour démarrer le jeu, exécutez simplement le fichier principal :
-    ```
+    ```bash
     python src/main.py
     ```
 
 ### Lancer les tests
 
 Pour exécuter les tests unitaires et vérifier le bon fonctionnement du code, utilisez la commande suivante :
-    ```py -m
-    pytest
+    ```bash
+    py -m pytest
     ```
