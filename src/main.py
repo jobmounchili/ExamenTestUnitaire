@@ -12,7 +12,7 @@ class Wordle:
         self.streak = 0
     
     def validate_word(self, word):
-        return word in self.word_list
+        return word.lower() in self.word_list
     
     def check_guess(self, guess):
         if not self.validate_word(guess):

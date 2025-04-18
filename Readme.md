@@ -25,7 +25,7 @@ Ce projet est une implémentation du célèbre jeu **Wordle** en Python. Le but 
 
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-repo.git
+   git clone https://github.com/jobmounchili/ExamenTestUnitaire.git
    python -m venv ExamenTestUnitaire
    cd ExamenTestUnitaire
    ```
